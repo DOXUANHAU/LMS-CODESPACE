@@ -1,0 +1,89 @@
+/* 📌 Homepage Banner */
+.homepage-banner {
+    padding: 60px 80px;
+    background: #f9fafb;
+  }
+  
+  /* 📌 Banner Content */
+  .banner-content {
+    max-width: 600px;
+  }
+  
+  .banner-title {
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.4;
+    color: #1e293b;
+  }
+  
+  .banner-text {
+    font-size: 16px;
+    color: #4b5563;
+  }
+  
+  /* 📌 CTA Button */
+  .cta-button {
+    height: auto;
+    padding: 14px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    background: #6366f1;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .cta-button:hover {
+    background: #4f46e5;
+  }
+  
+  /* 📌 Banner Images */
+  .decor-box {
+    height: 80px;
+    width: 100px;
+    background: #e0e7ff;
+    border-radius: 8px;
+    transform: rotate(-10deg);
+  }
+  
+  .small-image {
+    width: 160px;
+    object-fit: contain;
+  }
+  
+  .large-image {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .extra-image {
+    width: 320px;
+    border-radius: 16px;
+    object-fit: cover;
+  }
+  
+  /* 📌 Responsive */
+  @media (max-width: 991px) {
+    .homepage-banner {
+      padding: 40px 20px;
+    }
+  
+    .banner-title {
+      font-size: 30px;
+    }
+  
+    .small-image {
+      width: 120px;
+    }
+  
+    .large-image {
+      aspect-ratio: 1.2;
+    }
+  
+    .extra-image {
+      width: 280px;
+    }
+  }
+  

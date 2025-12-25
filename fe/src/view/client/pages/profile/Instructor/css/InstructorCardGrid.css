@@ -1,0 +1,30 @@
+.instructor-grid-container {
+  font-family:
+    Inter,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+}
+
+.instructor-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.instructor-row + .instructor-row {
+  margin-top: 16px;
+}
+
+.instructor-col {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 991px) {
+  .instructor-row {
+    max-width: 100%;
+  }
+}

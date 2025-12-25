@@ -1,0 +1,98 @@
+/* 📌 Căn chỉnh tổng thể */
+.courses-section {
+    padding: 50px 80px;
+    background-color: #f8fafc;
+  }
+  
+  /* 📌 Tiêu đề và nút */
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .section-header h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1e293b;
+  }
+  
+  .section-header button {
+    font-size: 16px;
+    color: #6366f1;
+  }
+  
+  /* 📌 Card hiển thị từng khóa học */
+  .course-card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .course-card img {
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  /* 📌 Hiệu ứng hover */
+  .course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 📌 Thông tin khóa học */
+  .course-details {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .instructor {
+    font-size: 14px;
+    color: #475569;
+    margin-bottom: 6px;
+    display: block;
+  }
+  
+  .rating-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .rating-count {
+    font-size: 14px;
+    color: #64748b;
+  }
+  
+  .duration {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #475569;
+    margin: 8px 0;
+  }
+  
+  .price {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ef4444;
+  }
+  
+  /* 📌 Responsive */
+  @media (max-width: 991px) {
+    .courses-section {
+      padding: 30px 20px;
+    }
+  
+    .section-header h2 {
+      font-size: 24px;
+    }
+  
+    .course-card img {
+      height: 160px;
+    }
+  }
+  

@@ -1,0 +1,122 @@
+.product-card {
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0px 0px 8px 0px rgba(59, 130, 246, 0.12);
+    background-color: #fff;
+    max-width: 400px;
+    padding: 26px;
+    font-family:
+      Inter,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+  }
+  
+  .product-image {
+    aspect-ratio: 1.78;
+    object-fit: contain;
+    width: 100%;
+    border-radius: 8px;
+    max-width: 356px;
+  }
+  
+  .price-container {
+    margin-top: 32px;
+    width: 100%;
+    max-width: 352px;
+  }
+  
+  .price-details {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    color: #0f172a;
+    font-weight: 600;
+  }
+  
+  .current-price {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  
+  .original-price-container {
+    position: relative;
+    padding-top: 10px;
+    font-size: 18px;
+    width: 59px;
+  }
+  
+  .strike-through {
+    background-color: #94a3b8;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 50%;
+  }
+  
+  .original-price {
+    opacity: 0.2;
+  }
+  
+  .discount {
+    color: #16a34a;
+    font-size: 20px;
+  }
+  
+  .button-group {
+    margin-top: 24px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+  }
+  
+  .add-cart-btn {
+    background-color: #020617;
+    min-height: 48px;
+    border-radius: 8px;
+    padding: 13px 24px;
+  }
+  
+  .buy-now-btn {
+    border: 1px solid #020617;
+    min-height: 48px;
+    border-radius: 8px;
+    padding: 13px 24px;
+    color: #0f172a;
+  }
+  
+  .divider {
+    margin: 27px 0 24px;
+    background-color: #e2e8f0;
+  }
+  
+  .share-section {
+    padding-left: 24px;
+    font-size: 16px;
+    color: #0f172a;
+    font-weight: 500;
+    line-height: 1.6;
+  }
+  
+  .share-image {
+    aspect-ratio: 6.33;
+    object-fit: contain;
+    width: 100%;
+    margin-top: 8px;
+  }
+  @keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+}

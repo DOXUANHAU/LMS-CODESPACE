@@ -1,0 +1,145 @@
+/* Sidebar Styles */
+.sidebar {
+    height: 100vh;
+    box-shadow: 2px 0 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #0f172a !important;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Header Section */
+  .sidebar-header {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo-img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .brand-name {
+    color: #f8fafc;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .back-button {
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Menu Section */
+  .sidebar-menu {
+    margin-top: 24px;
+    background-color: transparent !important;
+    border-right: none !important;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    padding: 18px !important;
+    gap: 10px;
+    position: relative;
+    background-color: transparent !important;
+    border: none !important;
+  }
+  
+  .active-menu-item {
+    position: relative;
+  }
+  
+  .active-menu-item::after {
+    content: "";
+    width: 2px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    background-color: #3b82f6;
+  }
+  
+  .menu-item span {
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    color: #e2e8f0;
+  }
+  
+  /* Footer Section */
+  .sidebar-footer {
+    margin-top: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .user-avatar {
+    border-radius: 100px;
+  }
+  
+  .user-greeting {
+    color: #f8fafc;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .menu-toggle {
+    cursor: pointer;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 991px) {
+    .sidebar {
+      width: 200px !important;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .sidebar {
+      width: 60px !important;
+    }
+  
+    .active-menu-item::after {
+      display: none;
+    }
+  
+    .menu-item {
+      justify-content: center;
+    }
+  }
+  
+  /* Ant Design Menu Overrides */
+  .ant-menu-item-selected {
+    background-color: transparent !important;
+  }
+  
+  .ant-menu-item:hover {
+    background-color: rgba(59, 130, 246, 0.1) !important;
+  }
+  
+  .ant-menu-item-active {
+    background-color: transparent !important;
+  }
+  
+  .ant-menu-inline .ant-menu-item::after {
+    display: none !important;
+  }
+  

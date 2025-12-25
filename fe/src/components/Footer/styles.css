@@ -1,0 +1,74 @@
+/* Footer tổng */
+.footer {
+  background: #1e293b;
+  color: #ffffff;
+  padding: 40px 20px;
+
+  margin-top: auto;
+  flex-shrink: 0;
+}
+
+/* Wrapper bên trong Footer để căn lề đẹp hơn */
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Logo & mô tả */
+.footer-logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 12px;
+}
+
+.footer-description {
+  font-size: 14px;
+  color: #cbd5e1;
+  line-height: 1.6;
+  max-width: 300px;
+  display: block;
+  margin-top: 8px;
+}
+
+/* Tiêu đề */
+.footer h4 {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+/* Links */
+.footer a {
+  color: #cbd5e1;
+  font-size: 14px;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+  color: #1677ff;
+}
+
+/* Thông tin liên hệ */
+.footer .ant-typography {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+/* Mạng xã hội */
+.social-media {
+  width: 150px;
+  height: auto;
+  margin-top: 12px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer h4 {
+    margin-top: 20px;
+  }
+}

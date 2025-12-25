@@ -1,0 +1,114 @@
+.checkout-container {
+    background-color: #fff;
+    padding: 24px 80px;
+  }
+  
+  .checkout-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .checkout-content {
+    margin-top: 22px;
+  }
+  
+  .checkout-form-card {
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+  }
+  
+  /* Payment Method Styles */
+  .payment-title {
+    margin: 24px 0 16px;
+  }
+  
+  .payment-methods {
+    width: 100%;
+  }
+  
+  .payment-options {
+    width: 100%;
+  }
+  
+  .payment-option-card {
+    width: 100%;
+    background-color: #f8fafc;
+    margin-bottom: 16px;
+  }
+  
+  .card-details {
+    margin-top: 16px;
+    padding-left: 24px;
+  }
+  
+  /* Order Summary Styles */
+  .order-summary-card {
+    border-radius: 8px;
+  }
+  
+  .course-card {
+    background-color: #f8fafc;
+    margin: 16px 0;
+  }
+  
+  .course-image {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .course-meta {
+    display: block;
+    color: #334155;
+    font-size: 14px;
+    margin: 4px 0;
+  }
+  
+  .course-price {
+    display: block;
+    text-align: right;
+    font-size: 18px;
+    margin-top: 4px;
+  }
+  
+  .coupon-section {
+    background-color: #f8fafc;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    margin: 16px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .coupon-section:hover {
+    background-color: #f1f5f9;
+  }
+  
+  .price-breakdown {
+    margin: 16px 0;
+  }
+  
+  .price-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  
+  .price-row.total {
+    font-size: 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .checkout-container {
+      padding: 20px;
+    }
+  
+    .checkout-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+    }
+  }
+  

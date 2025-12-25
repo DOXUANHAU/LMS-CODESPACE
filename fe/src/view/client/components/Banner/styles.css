@@ -1,0 +1,174 @@
+.homepageBanner {
+    background-color: #ffffff;
+    padding: 40px 80px 24px;
+    overflow: hidden;
+  }
+  
+  .mainRow {
+    display: flex;
+  }
+  
+  .leftColumn {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .leftContent {
+    display: flex;
+    margin: auto 0;
+    width: 100%;
+    flex-direction: column;
+    font-family:
+      Inter,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    justify-content: flex-start;
+  }
+  
+  .textContainer {
+    max-width: 592px;
+  }
+  
+  .mainTitle {
+    color: #0f172a !important;
+    font-size: 40px !important;
+    font-weight: 700 !important;
+    line-height: 56px !important;
+    letter-spacing: -0.8px !important;
+    margin-bottom: 16px !important;
+  }
+  
+  .description {
+    color: #64748b !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    margin-top: 16px !important;
+    margin-bottom: 0 !important;
+  }
+  
+  .ctaButton {
+    align-self: flex-start;
+    border-radius: 8px !important;
+    background-color: #2563eb !important;
+    margin-top: 24px !important;
+    padding: 16px !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+    height: auto !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+  
+  .rightColumn {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .imageContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .topImagesWrapper {
+    width: 100%;
+  }
+  
+  .decorativeElementCol {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .decorativeElement {
+    transform: rotate(-1.43rad);
+    display: flex;
+    margin-top: 182px;
+    width: 101px;
+    flex-shrink: 0;
+    height: 80px;
+  }
+  
+  .smallImageCol {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .smallImage {
+    aspect-ratio: 1.29;
+    object-fit: contain;
+    object-position: center;
+    width: 183px;
+    margin-top: 107px;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  
+  .largeImageCol {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .largeImage {
+    aspect-ratio: 0.9;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    border-radius: 543px;
+    flex-grow: 1;
+  }
+  
+  .bottomImage {
+    aspect-ratio: 1.46;
+    object-fit: contain;
+    object-position: center;
+    width: 349px;
+    border-radius: 631px;
+    align-self: flex-end;
+    max-width: 100%;
+  }
+  
+  @media (max-width: 991px) {
+    .homepageBanner {
+      padding: 40px 20px 24px;
+    }
+  
+    .mainRow {
+      flex-direction: column;
+    }
+  
+    .leftContent {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .mainTitle {
+      max-width: 100%;
+    }
+  
+    .description {
+      max-width: 100%;
+    }
+  
+    .imageContainer {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  
+    .topImagesWrapper {
+      max-width: 100%;
+      margin-right: 10px;
+    }
+  
+    .decorativeElement {
+      margin-top: 40px;
+    }
+  
+    .smallImage {
+      margin-top: 40px;
+    }
+  }
+  

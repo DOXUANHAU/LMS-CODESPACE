@@ -1,0 +1,113 @@
+.profile-sidebar {
+    border-radius: 16px;
+    background-color: #f8fafc;
+    min-height: 607px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-family:
+      Inter,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #0f172a;
+    padding-top: 24px;
+}
+
+.profile-avatar {
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 16px;
+    color: #0f172a;
+}
+
+.share-button {
+    margin-top: 16px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    background-color: #fff;
+    height: 48px;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.profile-divider {
+    background-color: #e2e8f0;
+    margin: 24px 0;
+    width: 274px;
+    max-width: 100%;
+}
+
+.profile-menu {
+    width: 100%;
+    max-width: 290px;
+    font-size: 14px;
+    color: #334155;
+    font-weight: 400;
+    border-right: none;
+}
+
+/* Căn chỉnh các mục menu */
+.ant-menu-item {
+    height: auto !important;
+    line-height: normal !important;
+    padding: 16px !important;
+    margin: 0 !important;
+    border-bottom: 1px solid #e2e8f0 !important;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Khi hover vào các mục chưa chọn */
+.ant-menu-item:hover {
+    background-color: #e2e8f0 !important;
+    color: #0f172a !important;
+}
+
+/* Khi một mục được chọn, nó sẽ có nền đen và chữ trắng */
+.ant-menu-item-selected {
+    background-color: #000 !important; /* Màu đen */
+    color: #fff !important;
+    font-weight: 500;
+}
+
+/* Khi hover vào mục đã chọn, vẫn giữ nguyên màu */
+.ant-menu-item-selected:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+/* Mục "Profile" được chọn mặc định */
+.menu-item-profile {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+/* Các mục menu khác */
+.menu-item {
+    background-color: #f8fafc !important;
+}
+
+.menu-item-last {
+    background-color: #f8fafc !important;
+}
+
+@media (max-width: 991px) {
+    .profile-sidebar {
+        margin-top: 40px;
+    }
+}

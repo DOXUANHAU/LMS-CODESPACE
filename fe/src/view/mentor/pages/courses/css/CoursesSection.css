@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+.courses-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: "Inter", sans-serif;
+}
+
+.courses-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.courses-title {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  color: #0f172a !important;
+  margin: 0 !important;
+}
+
+.courses-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.add-course-btn {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #2563eb !important;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
+  height: auto;
+}
+
+.dots-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.courses-grid {
+  width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 991px) {
+  .courses-container {
+    max-width: 991px;
+  }
+}
+
+@media (max-width: 640px) {
+  .courses-container {
+    max-width: 640px;
+  }
+
+  .courses-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .courses-actions {
+    width: 100%;
+  }
+
+  .add-course-btn {
+    flex: 1;
+  }
+}

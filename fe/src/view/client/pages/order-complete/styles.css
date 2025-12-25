@@ -1,0 +1,31 @@
+/* OrderCompleted.css */
+
+.order-completed {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.order-header {
+  background-color: #f4f6f9;
+}
+
+.order-summary {
+  margin-top: 20px;
+}
+
+.order-summary .ant-table {
+  margin-top: 20px;
+}
+
+.ant-table-cell {
+  padding: 8px 16px;
+}
+
+.ant-table-tbody > tr > td {
+  font-size: 14px;
+}
+
+.ant-btn {
+  font-size: 16px;
+}

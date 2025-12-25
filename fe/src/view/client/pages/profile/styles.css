@@ -1,0 +1,24 @@
+.profile-page {
+    background-color: #fff;
+    padding: 105px 70px 416px;
+    overflow: hidden;
+  }
+  
+  .profile-content {
+    background-color: #fff;
+  }
+  
+  .profile-container {
+    margin-bottom: 40px;
+  }
+  
+  .profile-main-content > * {
+    margin-bottom: 24px;
+  }
+  
+  @media (max-width: 991px) {
+    .profile-page {
+      padding: 100px 20px;
+    }
+  }
+  

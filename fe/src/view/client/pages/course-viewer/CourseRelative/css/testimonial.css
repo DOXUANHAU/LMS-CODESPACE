@@ -1,0 +1,97 @@
+.testimonials-section {
+  background-color: #f8fafc;
+  padding: 72px 80px;
+  overflow: hidden;
+}
+
+.testimonials-header {
+  margin-bottom: 24px;
+}
+
+.testimonials-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+  max-width: 1296px; /* Hiển thị đúng 3 CourseCard */
+  padding-bottom: 16px;
+}
+
+.testimonials-container::-webkit-scrollbar {
+  height: 4px;
+}
+
+.testimonials-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.testimonials-container::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 4px;
+}
+
+.testimonial-card {
+  width: 432px;
+  margin-right: 16px;
+  border-radius: 16px;
+  box-shadow: 0 0 8px 0 rgba(59, 130, 246, 0.12);
+}
+
+.testimonial-card .ant-card-body {
+  padding: 24px;
+  text-wrap: auto;
+}
+
+.quote-icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 8px;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.author-details {
+  margin-left: 12px;
+}
+
+.nav-button {
+  width: 56px;
+  height: 40px;
+  padding: 8px 16px;
+  background-color: #94a3b8;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-button:hover {
+  opacity: 0.9;
+  background-color: #94a3b8;
+}
+
+.nav-button:focus {
+  background-color: #94a3b8;
+}
+
+.nav-button img {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 991px) {
+  .testimonials-section {
+    padding: 72px 20px;
+  }
+
+  .testimonial-card {
+    width: 100%;
+    max-width: 432px;
+  }
+}

@@ -1,0 +1,82 @@
+.profile-form-container {
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+    background-color: #fff;
+    padding: 24px;
+    font-family:
+      Inter,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-weight: 400;
+  }
+  
+  .profile-form {
+    width: 100%;
+  }
+  
+  .name-row {
+    display: flex;
+    width: 100%;
+    gap: 60px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .form-item-half {
+    flex: 1;
+    min-width: 240px;
+  }
+  
+  .form-item-headline,
+  .form-item-language {
+    max-width: 420px;
+  }
+  
+  .ant-form-item-label > label {
+    color: #0f172a;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .form-input,
+  .form-textarea,
+  .form-select {
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    padding: 16px;
+    font-size: 16px;
+    color: #94a3b8;
+    line-height: 1.6;
+  }
+  
+  .form-textarea {
+    min-height: 120px;
+    resize: none;
+  }
+  
+  .ant-select-selector {
+    height: auto !important;
+    padding: 16px !important;
+  }
+  
+  .ant-select-selection-item {
+    display: flex !important;
+    align-items: center !important;
+    font-size: 16px !important;
+    color: #94a3b8 !important;
+  }
+  
+  @media (max-width: 991px) {
+    .profile-form-container {
+      padding: 20px;
+      max-width: 100%;
+    }
+  
+    .name-row {
+      flex-direction: column;
+      gap: 0;
+    }
+  }
+  

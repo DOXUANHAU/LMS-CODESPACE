@@ -1,0 +1,154 @@
+/* Dashboard container */
+.commision-dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px;
+    font-family: "Inter", sans-serif;
+  }
+  
+  /* Header section */
+  .dashboard-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .dashboard-title {
+    color: #0f172a;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
+    margin: 0;
+  }
+  
+  .more-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Tabs styling */
+  .dashboard-tabs {
+    width: 100%;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
+  .ant-tabs-tab {
+    padding: 16px 10px !important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+    color: #475569 !important;
+  }
+  
+  .ant-tabs-tab.ant-tabs-tab-active {
+    color: #3b82f6 !important;
+  }
+  
+  .ant-tabs-ink-bar {
+    background-color: #3b82f6 !important;
+    height: 3px !important;
+  }
+  
+  /* Stats cards */
+  .stats-row {
+    width: 100%;
+  }
+  
+  .stats-card {
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0px 0px 8px 0px rgba(59, 130, 246, 0.12);
+    padding: 16px 24px;
+  }
+  
+  .stats-icon {
+    font-size: 48px;
+    color: #16a34a;
+  }
+  
+  .stats-value {
+    color: #0f172a;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
+    margin: 0 0 3px 0;
+  }
+  
+  .stats-label {
+    color: #334155;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  
+  /* Table styling */
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .commission-table .ant-table-thead > tr > th {
+    background-color: #fff;
+    color: #334155;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 10px;
+  }
+  
+  .table-header {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .sort-icon {
+    color: #94a3b8;
+    font-size: 12px;
+  }
+  
+  .commission-table .ant-table-tbody > tr > td {
+    color: #0f172a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 16px 10px;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
+  .status-tag {
+    padding: 6px;
+    border-radius: 4px;
+    background-color: #fff !important;
+    border: none;
+  }
+  
+  .status-tag.ant-tag-success {
+    color: #16a34a;
+  }
+  
+  .status-tag.ant-tag-warning {
+    color: #facc15;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 991px) {
+    .dashboard-header {
+      gap: 40px;
+    }
+  
+    .stats-row {
+      flex-direction: column;
+      gap: 16px;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .dashboard-header {
+      gap: 20px;
+    }
+  }
+  

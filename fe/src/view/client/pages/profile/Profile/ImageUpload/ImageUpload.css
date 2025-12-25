@@ -1,0 +1,115 @@
+.image-upload-container {
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+    background-color: #fff;
+    padding: 20px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .section-title {
+    color: #0f172a;
+    font-family:
+      Inter,
+      -apple-system,
+      Roboto,
+      Helvetica,
+      sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  .image-preview-box {
+    border-radius: 16px;
+    border: 0.617px solid #e2e8f0;
+    background-color: #fff;
+    padding: 16px;
+    width: 425px;
+    max-width: 100%;
+    margin-top: 6px;
+  }
+  
+  .image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #e2e8f0;
+    min-height: 223px;
+    padding: 89px 9px;
+  }
+  
+  .placeholder-icon {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .upload-title {
+    margin-top: 41px;
+  }
+  
+  .upload-controls {
+    display: flex;
+    margin-top: 6px;
+    width: 100%;
+    max-width: 756px;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  
+  .file-input {
+    flex: 1;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    padding: 16px;
+    font-size: 16px;
+    color: #94a3b8;
+    font-weight: 400;
+  }
+  
+  .upload-button {
+    height: 58px;
+    border-radius: 8px;
+    border: 1px solid #0f172a;
+    background-color: #fff;
+    padding: 18px 24px;
+    font-size: 14px;
+    color: #0f172a;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .save-button {
+    margin-top: 16px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #0f172a;
+    padding: 13px 24px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+  }
+  
+  @media (max-width: 991px) {
+    .image-upload-container {
+      padding: 20px;
+      max-width: 100%;
+    }
+  
+    .upload-controls {
+      flex-direction: column;
+    }
+  
+    .upload-button,
+    .save-button {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  

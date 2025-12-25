@@ -1,0 +1,113 @@
+.login-container {
+  background-color: #fff;
+  padding: 65px 80px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.login-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Inter, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.login-title {
+  color: #0f172a !important;
+  text-align: center;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+  margin-bottom: 12px !important;
+}
+
+.login-form-container {
+  width: 100%;
+  max-width: 480px;
+  margin-top: 24px;
+}
+
+.login-form .ant-form-item-label > label {
+  color: #0f172a;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.login-form .ant-input,
+.login-form .ant-input-password {
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  padding: 14px;
+  font-size: 15px;
+}
+
+.login-button {
+  background-color: #1e293b;
+  border: none;
+  border-radius: 8px;
+  height: 48px;
+  padding: 12px 24px;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.login-button:hover {
+  background-color: #0f172a !important;
+}
+
+.divider-container {
+  margin: 24px 0;
+}
+
+.login-divider {
+  color: #94a3b8;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.social-login-container {
+  margin-top: 24px;
+}
+
+.social-button {
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background-color: #fff;
+  padding: 13px 22px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.social-button:hover {
+  background-color: #f1f5f9;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+@media (max-width: 991px) {
+  .login-container {
+    padding: 20px;
+  }
+
+  .login-content {
+    margin-top: 40px;
+  }
+
+  .social-button {
+    padding: 13px 20px;
+  }
+}
