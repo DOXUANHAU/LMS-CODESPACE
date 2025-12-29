@@ -13,10 +13,10 @@ function HomepageBanner1() {
           <div className={styles.leftContent}>
             <div className={styles.textContainer}>
               <Title level={1} className={styles.mainTitle}>
-                Đánh thức tiềm năng cùng GiantWisdom
+                Đánh thức tiềm năng cùng EduPlus
               </Title>
               <Paragraph className={styles.description}>
-                Chào mừng bạn đến với GiantWisdom, nơi học tập không có giới
+                Chào mừng bạn đến với EduPlus, nơi học tập không có giới
                 hạn. Chúng tôi tin rằng giáo dục là chìa khóa cho sự phát triển
                 cá nhân và chuyên nghiệp, và chúng tôi ở đây để hướng dẫn bạn
                 trên hành trình đi đến thành công. Cho dù bạn là sinh viên,

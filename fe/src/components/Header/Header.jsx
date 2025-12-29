@@ -32,7 +32,7 @@ const Header = () => {
               alt="Giant Wisdom Logo"
               className="logo-image"
             />
-            <span className="logo-text">Giant<br />Wisdom</span>
+            <span className="logo-text">EduPlus<br /></span>
           </Space>
         </Col>
 
