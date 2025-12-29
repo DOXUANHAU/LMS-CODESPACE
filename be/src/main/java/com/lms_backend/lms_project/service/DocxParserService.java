@@ -12,7 +12,7 @@ public class DocxParserService {
 
     public String extract(MultipartFile file) {
         try (XWPFDocument doc = new XWPFDocument(file.getInputStream())) {
-            System.out.println("extracting docx");
+            System.out.println("extracting docx .... ");
             return doc.getParagraphs()
                     .stream()
                     .map(XWPFParagraph::getText)
