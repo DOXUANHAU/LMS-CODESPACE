@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Typography, Button, Card, Modal, Spin } from "antd";
 import { ExclamationCircleOutlined } from "@ant-design/icons";
 import { baseURL } from "../../../../api/constant";
+import { toast } from "react-toastify";
 
 const { Text, Title } = Typography;
 
@@ -11,6 +12,7 @@ const CourseSection = ({ section, onSelectVideo }) => {
   const [loadingTopicId, setLoadingTopicId] = useState(null);
 
   const handleSubmitEssay = async (event, topicId) => {
+    toast.info("Model LLM đang xử lý, vui lòng chờ...");
     const file = event.target.files[0];
     if (!file) return;
 

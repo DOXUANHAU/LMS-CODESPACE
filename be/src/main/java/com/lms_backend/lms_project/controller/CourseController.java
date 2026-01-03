@@ -2,14 +2,10 @@ package com.lms_backend.lms_project.controller;
 
 
 import com.lms_backend.lms_project.dto.CourseDTO;
-import com.lms_backend.lms_project.dto.UserDTO;
 import com.lms_backend.lms_project.dto.VideoProgressDTO;
 import com.lms_backend.lms_project.dto.request.*;
 import com.lms_backend.lms_project.dto.response.CommonApiResponse;
 import com.lms_backend.lms_project.dto.response.CourseResponseDto;
-import com.lms_backend.lms_project.dto.response.RatingListResponse;
-import com.lms_backend.lms_project.dto.response.RatingResponse;
-import com.lms_backend.lms_project.entity.User;
 import com.lms_backend.lms_project.resource.CourseResource;
 import com.lms_backend.lms_project.service.CourseProgressService;
 import com.lms_backend.lms_project.service.RatingService;
@@ -17,16 +13,13 @@ import com.lms_backend.lms_project.service.VideoProgressService;
 import com.lowagie.text.DocumentException;
 import io.swagger.v3.oas.annotations.Operation;
 import jakarta.servlet.http.HttpServletResponse;
-import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
-import java.util.List;
 
 @RestController
 @RequestMapping("api/course")

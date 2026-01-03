@@ -2,7 +2,6 @@ package com.lms_backend.lms_project.controller;
 import com.lms_backend.lms_project.dto.request.CategoryRequestDto;
 import com.lms_backend.lms_project.dto.response.CategoryResponseDto;
 import com.lms_backend.lms_project.dto.response.CommonApiResponse;
-import com.lms_backend.lms_project.entity.Category;
 import com.lms_backend.lms_project.resource.CategoryResource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

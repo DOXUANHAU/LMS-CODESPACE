@@ -36,6 +36,9 @@ public class OllamaService {
             "format", "json"
         );
 
+        System.out.println("Asking Ollama with prompt " );
+
+
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
 

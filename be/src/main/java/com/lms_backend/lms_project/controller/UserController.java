@@ -1,6 +1,5 @@
 package com.lms_backend.lms_project.controller;
 
-import com.lms_backend.lms_project.dto.UserDTO;
 import com.lms_backend.lms_project.dto.request.AddMentorDetailRequestDto;
 import com.lms_backend.lms_project.dto.request.ChangePasswordRequestDTO;
 import com.lms_backend.lms_project.dto.request.UserLoginRequest;
@@ -8,10 +7,8 @@ import com.lms_backend.lms_project.dto.response.CommonApiResponse;
 import com.lms_backend.lms_project.dto.response.RegisterUserRequestDTO;
 import com.lms_backend.lms_project.dto.response.UserLoginResponse;
 import com.lms_backend.lms_project.dto.response.UserResponseDTO;
-import com.lms_backend.lms_project.entity.Rating;
 import com.lms_backend.lms_project.entity.User;
 import com.lms_backend.lms_project.resource.UserResource;
-import com.lms_backend.lms_project.service.RatingService;
 import com.lms_backend.lms_project.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import jakarta.servlet.http.HttpServletResponse;

@@ -1,7 +1,6 @@
 package com.lms_backend.lms_project.controller;
 
 import com.lms_backend.lms_project.Utility.Helper;
-import com.lms_backend.lms_project.Utility.JwtUtils;
 import com.lms_backend.lms_project.Utility.OtpStore;
 import com.lms_backend.lms_project.dto.UserDTO;
 import com.lms_backend.lms_project.dto.request.BookingFreeRequestDTO;
@@ -21,7 +20,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.Duration;
 import java.util.List;
 
 @RestController
